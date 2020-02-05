@@ -1,3 +1,37 @@
+<html lang="en">
+<script src="Jqueri/jquery-3.4.1.min.js"></script>
+
+    <script type="text/javascript">
+    </script>
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="Jqueri/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="Jqueri/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="Jqueri/jquery.scrollTo-1.4.2-min.js"></script>
+
+<script type="text/javascript" src="Javascript/js.js"></script>
+    <script type="text/javascript" src="Javascript/customjs.js"></script>
+    
+    <script type="text/javascript">
+$(document).ready(function(){
+	$('#nav').localScroll(800);
+	$('#page2').parallax("50%", 0.3);
+	$('#page3').parallax("50%", 0.3);
+	$('#page4').parallax("50%", 0.3);
+	$('#page5').parallax("50%", 0.3);
+
+})
+        
+</script>
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JopLohuisUIUXDesign</title>
+  <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
 body{
     height:100%;
     width: 100%;
