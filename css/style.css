@@ -43,9 +43,9 @@ ul{
     height: 20px;
     width: 100px;
     color:white;
-    margin-left: -130px;
+    margin-left: -100px;
     position:absolute;
-    margin-top:2px;
+    margin-top:-30px;
     font-family: 'Montserrat', sans-serif;
     display:none;
     text-align: end;
