@@ -1,0 +1,504 @@
+body{
+    height:100%;
+    width: 100%;
+    background-color:#111110;
+    margin:0;
+    display:inline-block;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+	list-style: none;
+	position: fixed;
+	right: 20px;
+    top: 30%;
+}
+
+nav img{
+    width: 23px;
+    height: 23px;
+    background-size:contain;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+nav img:hover{
+    background: url(/img/clicked.png);
+    width: 23px;
+    height: 23px;
+    background-size:contain;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+ul{
+     list-style-type: none;
+}
+
+#text{
+    height: 20px;
+    width: 100px;
+    color:white;
+    margin-left: -130px;
+    position:absolute;
+    margin-top:2px;
+    font-family: 'Montserrat', sans-serif;
+    display:none;
+    text-align: end;
+}
+
+
+
+
+li:hover #text{
+    display:inline;
+}
+
+
+
+#logo{
+    width: 150px;
+    height: 75px;
+    background-image:url(/img/logo.png);
+    background-size:contain;
+    position:relative;
+    left:3%;
+    top:5%;
+}
+
+.allpages p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:#FFF;
+}
+
+#page1{
+    height:890px;
+    width: 100%;
+    background-image:url(/img/head2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: #111110;
+}
+
+#intro{
+    width: 60px;
+    height: 30px;
+    background-image:url(/img/text-16.png);
+    background-size:cover;
+    position:absolute;
+    top: 5%;
+    left: 47%;
+}
+
+#hello{
+    width: 220px;
+    height: 95px;
+    background-image:url(/img/Hello.png);
+    background-size:cover;
+    position: absolute;
+    left:3%;
+    top: 50%;
+}
+
+#pltekst{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 3%;
+    top: 62%;
+}
+
+#pijl{
+    width: 20px;
+    height: 15px;
+    background-image:url(/img/pijl-23.png);
+    background-size:cover;
+    position: absolute;
+    left:49%;
+    bottom: 5%;
+}
+
+
+#page2{
+    height:890px;
+    width: 100%;
+    background-color:#111110;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+#myskills{
+    width: 100px;
+    height: 30px;
+    background-image:url(/img/skill-33.png);
+    background-size:cover;
+    position: relative;
+    top: -3%;
+    left: 46%;
+}
+
+.icons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+
+#icon1{
+    width:420px;
+    height: 450px;
+    background-image:url(/img/icons1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    
+}
+
+#icon2{
+    width:420px;
+    height: 450px;
+    background-image:url(/img/icons2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+
+#icon3{
+    width:420px;
+    height: 450px;
+    background-image:url(/img/icons3.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+
+
+#page3{
+    height:890px;
+    width: 100%;
+    background-color:#111110;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+.programms{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    margin-top: 200px;
+}
+
+#p1{
+    width:150px;
+    height: 200px;
+    background-image:url(/img/photo.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+#p2{
+    width:150px;
+    height: 200px;
+    background-image:url(/img/illu.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+#p3{
+    width:150px;
+    height: 200px;
+    background-image:url(/img/html.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.programms2{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    margin-top: 100px;
+}
+
+#p4{
+    width:150px;
+    height: 200px;
+    background-image:url(/img/protoz.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+#p5{
+    width:200px;
+    height: 200px;
+    background-image:url(/img/sub.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+#p6{
+    width:150px;
+    height: 200px;
+    background-image:url(/img/ani.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+#program{
+    width: 100px;
+    height: 30px;
+    background-image:url(/img/programs-34.png);
+    background-size:cover;
+    position: relative;
+    top: -3%;
+    left: 46%;
+}
+
+
+#page4{
+    height:890px;
+    width: 100%;
+    background-color:#111110;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+#portfolio{
+    width: 100px;
+    height: 30px;
+    background-image:url(/img/title-35.png);
+    background-size:cover;
+    position: relative;
+    top: -3%;
+    left: 46%; 
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+    height: 500px;
+  position: relative;
+  margin: auto;
+    margin-top: 150px;
+}
+
+/* Hide the images by default */
+
+.mySlides {
+  display:none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #69c2c3;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: -40px;
+  width: 100%;
+  text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+
+#page5{
+    height:890px;
+    width: 100%;
+    background-color:#111110;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+#contact{
+    width: 100px;
+    height: 30px;
+    background-image:url(/img/title-36.png);
+    background-size:cover;
+    position: relative;
+    top: -3%;
+    left: 46%; 
+}
+
+.media{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    margin-top: 200px;
+}
+
+.media p{
+    margin-top: 125px;
+}
+
+.media a{
+    text-decoration: none;
+}
+
+#social1{
+    width:150px;
+    height: 150px;
+    background-image:url(/img/insta.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+}
+
+#social2{
+    width:150px;
+    height: 140px;
+    background-image:url(/img/mail.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+    padding-left: -200px;
+}
+
+#social3{
+    width:150px;
+    height: 150px;
+    background-image:url(/img/linked.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+}
+
+
+#balk1{
+    width:20px;
+    height: 280px;
+    background-image:url(/img/balk-40.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+
+#balk2{
+    width:20px;
+    height: 280px;
+    background-image:url(/img/balk-40.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+
+#kutding{
+    margin-top: -173px;
+    text-align: center;
+}
+
+#kutding a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
